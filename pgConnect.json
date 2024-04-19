@@ -1,0 +1,13 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "Bloggle_aiven",
+      "Group": "bloggle",
+      "Host": "pg-bloggle-bloggle.b.aivencloud.com",
+      "Port": 24782,
+      "MaintenanceDB": "defaultdb",
+      "Username": "avnadmin",
+      "SSLMode": "require"
+    }
+  }
+}
