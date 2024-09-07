@@ -6,15 +6,16 @@
     "list": "wrangler r2 bucket list"
   },
   "dependencies": {
-    "@prisma/client": "^5.12.1",
+    "@prisma/client": "^5.19.1",
     "@prisma/extension-accelerate": "^1.0.0",
     "@qq07/bloggle-common": "^1.0.4",
     "hono": "^4.2.3",
-    "prisma": "^5.12.1",
+    "openai": "^4.47.1",
     "zod": "^3.22.5"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20240403.0",
+    "prisma": "^5.19.1",
     "wrangler": "^3.47.0"
   }
 }
