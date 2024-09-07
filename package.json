@@ -1,7 +1,9 @@
 {
   "scripts": {
     "dev": "wrangler dev src/index.ts",
-    "deploy": "wrangler deploy --minify src/index.ts"
+    "deploy": "wrangler deploy --minify src/index.ts",
+    "bucket": "wrangler r2 bucket create tyre",
+    "list": "wrangler r2 bucket list"
   },
   "dependencies": {
     "@prisma/client": "^5.12.1",
